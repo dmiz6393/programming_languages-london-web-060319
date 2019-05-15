@@ -9,6 +9,7 @@ if new_hash[lang]==nil
    new_hash[lang][:style] = []
         end
         
-        new_hash 
+new_hash[lang][:style] << style
+end 
 
  

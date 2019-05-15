@@ -11,5 +11,8 @@ if new_hash[lang]==nil
         
 new_hash[lang][:style] << style
 end 
+end 
+new_hash
+end 
 
  

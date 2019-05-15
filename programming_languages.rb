@@ -1,3 +1,14 @@
 def reformat_languages(languages)
-  # your code here
-end
+  new_hash={} 
+
+languages.each do |style, desc| 
+  desc.each do |lang, value| 
+  if style==:oo 
+ new_hash<< new_hash[lang][:style]=[:oo]
+  
+  if style==:functional 
+     new_hash<< new_hash[lang][:style]=[:functional]
+    end
+  end
+   new_hash  
+end	

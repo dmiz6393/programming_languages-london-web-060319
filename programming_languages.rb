@@ -6,5 +6,9 @@ languages.each do |style, desc|
 
 if new_hash[lang]==nil 
   new_hash[lang]=describe 
+   new_hash[lang][:style] = []
+        end
+        
+        new_hash 
 
  
